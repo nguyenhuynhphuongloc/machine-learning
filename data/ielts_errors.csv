@@ -1,0 +1,439 @@
+error_id,text,category
+ERR-0351,IELTS Writing feedback - Technology has made communication more easier and conveniant.,spelling_wordform
+ERR-0411,Bị dính bẫy distractor trong IELTS Listening khi người nói tự sửa lại thông tin ngay sau đó.,listening_reading_trap
+ERR-0087,Mock test mistake: Many people suffer of stress due to heavy workload.,article_preposition
+ERR-0278,Essay went off-topic by talking about general health instead of fast food advertising.,task_response
+ERR-0310,Thiếu số từ quy định (dưới 250 từ Task 2 hoặc dưới 150 từ Task 1) nên bị trừ điểm nặng.,task_response
+ERR-0324,Essay answered a memorized topic about technology instead of the actual question on remote work.,task_response
+ERR-0296,IELTS Writing feedback - The essay agrees and disagrees vaguely without taking a clear position.,task_response
+ERR-0325,Mock test mistake: Essay answered a memorized topic about technology instead of the actual question on remote work.,task_response
+ERR-0343,Student wrote: There is a big different between urban and rural lifestyles.,spelling_wordform
+ERR-0326,No clear stance throughout the essay despite choosing an agree/disagree prompt.,task_response
+ERR-0303,Lạc đề: đề bài hỏi về thuế đường nhưng bài viết lại bàn chung chung về tập thể dục.,task_response
+ERR-0226,People should protect wildlife. It is very important for them because they need it.,coherence_cohesion
+ERR-0007,In essay: Yesterday I have visited my hometown and see many changes.,grammar_tense
+ERR-0365,"Học sinh mắc lỗi: Lỗi viết sai chính tả từ học thuật phổ biến: goverment, enviroment, accomodation.",spelling_wordform
+ERR-0337,She worked very hardly to achieve a high IELTS score.,spelling_wordform
+ERR-0214,"IELTS Writing feedback - Online shopping is convenient, therefore many shops are closing down.",sentence_structure
+ERR-0062,IELTS Writing feedback - Government should invest money for education and healthcare.,article_preposition
+ERR-0203,Lỗi câu run-on và comma splice nối hai mệnh đề độc lập bằng dấu phẩy.,sentence_structure
+ERR-0037,Lỗi chia sai thì quá khứ đơn trong IELTS Writing Task 1 biểu đồ năm 2015.,grammar_tense
+ERR-0301,Superficial bullet-like ideas without explaining why or how the effect happens.,task_response
+ERR-0060,I was born on 2002 in the Vietnam and live at Hanoi.,article_preposition
+ERR-0272,Speaking transcript: Repetitive use of 'also' and 'and' to connect unrelated arguments.,coherence_cohesion
+ERR-0194,"Speaking transcript: In addition to reduce traffic congestion, public buses lower emissions.",sentence_structure
+ERR-0180,Speaking transcript: There are many people want to move to urban areas for better jobs.,sentence_structure
+ERR-0112,Speaking transcript: We had a big rain yesterday so the streets were flooded.,collocation_vocab
+ERR-0352,Parents play a crucial responsible in raising their kids.,spelling_wordform
+ERR-0259,"Ý tưởng trong đoạn văn nhảy cóc, thiếu sự liên kết logic giữa luận điểm và ví dụ.",coherence_cohesion
+ERR-0160,Student wrote: Reading books can open our mind and give us many experiences.,collocation_vocab
+ERR-0431,Missed synonym mapping between 'elderly residents' and 'senior citizens' in Matching Info.,listening_reading_trap
+ERR-0146,Speaking transcript: Living in big cities is very convenient to find jobs.,collocation_vocab
+ERR-0030,There are a significant drop in birth rates last century.,grammar_tense
+ERR-0052,The graph illustrated the changes in energy use over the next ten years.,grammar_tense
+ERR-0415,Viết quá giới hạn từ NO MORE THAN TWO WORDS AND/OR A NUMBER trong Listening và Reading.,listening_reading_trap
+ERR-0425,Spent 30 minutes on Reading Passage 1 and ran out of time for Passage 3.,listening_reading_trap
+ERR-0410,"Speaking transcript: Misunderstood map directions 'opposite', 'adjacent to', and 'just past the bridge' in Listening.",listening_reading_trap
+ERR-0092,Thiếu mạo từ a an the trước danh từ đếm được số ít.,article_preposition
+ERR-0056,We need to discuss about the impact of climate change in society.,article_preposition
+ERR-0306,Học sinh mắc lỗi: Thiếu đoạn Overview tổng quan trong IELTS Writing Task 1.,task_response
+ERR-0157,Speaking transcript: The government should push the development of green energy.,collocation_vocab
+ERR-0141,Online courses help learners save their time and fee.,collocation_vocab
+ERR-0101,The society needs better rules to protect environment.,article_preposition
+ERR-0125,Fast food can cause serious healthy problems like obesity.,collocation_vocab
+ERR-0049,In essay: Many children doesn't like eating vegetables at school.,grammar_tense
+ERR-0035,The data clearly indicate that sales was highest in July.,grammar_tense
+ERR-0021,Mock test mistake: The chart show that oil production decrease from 2005 to 2010.,grammar_tense
+ERR-0232,"In conclusion, there are both advantages and disadvantages, and I agree with this.",coherence_cohesion
+ERR-0116,Mock test mistake: Using social media brings many bad effects to young people.,collocation_vocab
+ERR-0072,This solution can help to solve to the environmental crisis.,article_preposition
+ERR-0172,"In essay: Studying abroad is beneficial, however it is very costly for families.",sentence_structure
+ERR-0244,Ideas in body paragraph 2 repeat body paragraph 1 without logical progression.,coherence_cohesion
+ERR-0355,Mock test mistake: The develop of artificial intelligence brings new oppurtunities.,spelling_wordform
+ERR-0413,Nhầm lẫn giữa FALSE và NOT GIVEN trong bài Reading do tự suy diễn kiến thức ngoài.,listening_reading_trap
+ERR-0190,People who living in the countryside enjoy cleaner air.,sentence_structure
+ERR-0262,"Chuyển đoạn đột ngột, không có câu dẫn dắt giữa hai luận điểm đối lập.",coherence_cohesion
+ERR-0152,"Lặp từ vựng đơn giản quá nhiều như good, bad, big, very, a lot of.",collocation_vocab
+ERR-0383,Speaking transcript: Her explaination was clear and easy to understand.,spelling_wordform
+ERR-0136,Speaking transcript: Students should learn by heart new vocabularies and knowledges.,collocation_vocab
+ERR-0225,"IELTS Writing feedback - Besides that, technology is good. Furthermore, it is fast. In addition, it is cheap.",coherence_cohesion
+ERR-0316,Speaking transcript: Overgeneralized claim saying all teenagers are addicted to phones without nuance.,task_response
+ERR-0428,In essay: Confused 'a few' with 'few' and 'most' with 'all' in Reading True False Not Given.,listening_reading_trap
+ERR-0246,Missing transition between the cause of traffic jams and the proposed government solutions.,coherence_cohesion
+ERR-0273,Weak referencing and lack of cohesive devices to link supporting explanations.,coherence_cohesion
+ERR-0181,I think that people should use public transport it is cheaper.,sentence_structure
+ERR-0406,Speaking transcript: Selected a heading that only described a minor example rather than the whole paragraph.,listening_reading_trap
+ERR-0169,"Many young people use smartphones, they spend hours on social media.",sentence_structure
+ERR-0145,Living in big cities is very convenient to find jobs.,collocation_vocab
+ERR-0364,"Lỗi viết sai chính tả từ học thuật phổ biến: goverment, enviroment, accomodation.",spelling_wordform
+ERR-0189,Speaking transcript: Having a university degree that helps graduates find good jobs.,sentence_structure
+ERR-0412,Học sinh mắc lỗi: Bị dính bẫy distractor trong IELTS Listening khi người nói tự sửa lại thông tin ngay sau đó.,listening_reading_trap
+ERR-0124,In essay: People should make sports regularly to keep healthy.,collocation_vocab
+ERR-0077,Children spend too much time in playing video games.,article_preposition
+ERR-0242,IELTS Writing feedback - Using too many linking words mechanically at the start of every single sentence.,coherence_cohesion
+ERR-0283,In essay: Arguments are too general and lack specific explanations or relevant examples.,task_response
+ERR-0357,Public transport is more safety and reliability than motorbikes.,spelling_wordform
+ERR-0151,"Thêm s vào danh từ không đếm được như informations, advices, equipments.",collocation_vocab
+ERR-0165,"Although the tuition fee is expensive, but many students still study abroad.",sentence_structure
+ERR-0153,"Bài làm bị trừ điểm vì: Lặp từ vựng đơn giản quá nhiều như good, bad, big, very, a lot of.",collocation_vocab
+ERR-0117,The teacher gave us many useful advices and informations.,collocation_vocab
+ERR-0031,IELTS Writing feedback - There are a significant drop in birth rates last century.,grammar_tense
+ERR-0368,"Dùng sai tính từ đuôi -ed và -ing (interesting vs interested, boring vs bored).",spelling_wordform
+ERR-0041,Dùng sai thì hiện tại hoàn thành với mốc thời gian xác định trong quá khứ.,grammar_tense
+ERR-0254,Học sinh mắc lỗi: Đoạn thân bài thiếu câu chủ đề (topic sentence) khiến người đọc khó nắm ý chính.,coherence_cohesion
+ERR-0107,There is an increase of the number of tourists visiting city.,article_preposition
+ERR-0103,IELTS Writing feedback - I usually go to the bed early on the weekend.,article_preposition
+ERR-0401,Mock test mistake: Over-inferred outside knowledge in Reading instead of relying strictly on the passage text.,listening_reading_trap
+ERR-0279,Mock test mistake: Essay went off-topic by talking about general health instead of fast food advertising.,task_response
+ERR-0260,"Đại từ thay thế it, they, this không rõ ràng dẫn đến câu văn mơ hồ.",coherence_cohesion
+ERR-0221,"In essay: Firstly, cars cause pollution. Moreover, education is important. Therefore, schools need computers.",coherence_cohesion
+ERR-0046,Sai bị động quá khứ was build thay vì was built.,grammar_tense
+ERR-0036,In essay: The data clearly indicate that sales was highest in July.,grammar_tense
+ERR-0398,Misspelled a dictated postcode and surname in Listening Part 1.,listening_reading_trap
+ERR-0097,"Sai cụm giới từ đi kèm tính từ như interested in, good at, responsible for.",article_preposition
+ERR-0353,In essay: Parents play a crucial responsible in raising their kids.,spelling_wordform
+ERR-0235,"On the contrary, online learning saves money while traditional classes are face to face.",coherence_cohesion
+ERR-0270,Student wrote: This paragraph mixes advantages and solutions together without clear organization.,coherence_cohesion
+ERR-0061,Government should invest money for education and healthcare.,article_preposition
+ERR-0133,In essay: I want to reach my dream of studying abroad.,collocation_vocab
+ERR-0196,Speaking transcript: It is undeniable that technology which has transformed education.,sentence_structure
+ERR-0129,Speaking transcript: Smoking can do harm for our lungs and heart.,collocation_vocab
+ERR-0330,This new policy is very benefit for local economy growth.,spelling_wordform
+ERR-0099,Thêm the sai quy tắc trước danh từ trừu tượng hoặc tên quốc gia.,article_preposition
+ERR-0010,People was working longer hours in the past decade.,grammar_tense
+ERR-0346,He gave a very successfully presentation at the conference.,spelling_wordform
+ERR-0426,Speaking transcript: Spent 30 minutes on Reading Passage 1 and ran out of time for Passage 3.,listening_reading_trap
+ERR-0371,"Nhận xét giáo viên: Sai so sánh hơn kép more easier, more better hoặc sai dạng từ loại sau động từ to be.",spelling_wordform
+ERR-0414,Bài làm bị trừ điểm vì: Nhầm lẫn giữa FALSE và NOT GIVEN trong bài Reading do tự suy diễn kiến thức ngoài.,listening_reading_trap
+ERR-0016,Student wrote: Technology have changed the way people communicate since 1990.,grammar_tense
+ERR-0132,I want to reach my dream of studying abroad.,collocation_vocab
+ERR-0047,Nhận xét giáo viên: Sai bị động quá khứ was build thay vì was built.,grammar_tense
+ERR-0309,Học sinh mắc lỗi: Bài viết không nêu rõ quan điểm cá nhân dù đề yêu cầu Give your own opinion.,task_response
+ERR-0078,Speaking transcript: Children spend too much time in playing video games.,article_preposition
+ERR-0313,Copied the prompt word-for-word in the introduction without paraphrasing.,task_response
+ERR-0139,Eating too much sugar can rise the risk of diabetes.,collocation_vocab
+ERR-0121,He wants to take a good salary after graduating from university.,collocation_vocab
+ERR-0294,Mock test mistake: Writing Task 1 was under 150 words and missed two categories from the table.,task_response
+ERR-0363,Mock test mistake: He is a very intelligence student with strong creative.,spelling_wordform
+ERR-0193,"In addition to reduce traffic congestion, public buses lower emissions.",sentence_structure
+ERR-0378,Many young graduates lack of finance independence from parents.,spelling_wordform
+ERR-0367,"Bài làm bị trừ điểm vì: Nhầm lẫn từ loại danh từ, tính từ, trạng từ (benefit vs beneficial, different vs difference).",spelling_wordform
+ERR-0186,"While the percentage of coal fell, whereas solar energy increased.",sentence_structure
+ERR-0148,Bài làm bị trừ điểm vì: Lỗi dùng từ không tự nhiên do dịch từng từ tiếng Việt sang tiếng Anh.,collocation_vocab
+ERR-0430,Speaking transcript: Did not check grammar fit when filling blanks in Reading Summary Completion.,listening_reading_trap
+ERR-0084,Parents should pay attention for their children's mental health.,article_preposition
+ERR-0054,Each of the participants have to submit a report.,grammar_tense
+ERR-0369,"Học sinh mắc lỗi: Dùng sai tính từ đuôi -ed và -ing (interesting vs interested, boring vs bored).",spelling_wordform
+ERR-0437,Misread 'YES/NO/NOT GIVEN' instructions and wrote 'TRUE/FALSE' instead.,listening_reading_trap
+ERR-0405,Selected a heading that only described a minor example rather than the whole paragraph.,listening_reading_trap
+ERR-0108,Speaking transcript: There is an increase of the number of tourists visiting city.,article_preposition
+ERR-0039,"Sai sự hòa hợp chủ ngữ và động từ số ít số nhiều, quên thêm s/es.",grammar_tense
+ERR-0067,Mock test mistake: The internet plays important role in modern education.,article_preposition
+ERR-0081,The population in the China is larger than in the Japan.,article_preposition
+ERR-0395,Student wrote: Missed the paraphrase: question used 'annual cost' while passage said 'yearly fee'.,listening_reading_trap
+ERR-0177,"When children playing games too much, losing focus in class.",sentence_structure
+ERR-0245,IELTS Writing feedback - Ideas in body paragraph 2 repeat body paragraph 1 without logical progression.,coherence_cohesion
+ERR-0334,Speaking transcript: Many people recieve false information from social media platforms.,spelling_wordform
+ERR-0001,The number of university students have increased sharply last year.,grammar_tense
+ERR-0257,Sai cụm từ nối cố định: viết In the other hand thay vì On the other hand.,coherence_cohesion
+ERR-0290,Nhận xét giáo viên: Used memorized cliché sentences that do not directly answer the essay question.,task_response
+ERR-0308,Bài viết không nêu rõ quan điểm cá nhân dù đề yêu cầu Give your own opinion.,task_response
+ERR-0219,"Although living in cities is stressful, however salaries are higher.",sentence_structure
+ERR-0091,Speaking transcript: She married with a doctor and moved to the Australia.,article_preposition
+ERR-0188,Having a university degree that helps graduates find good jobs.,sentence_structure
+ERR-0209,Sai mệnh đề quan hệ: dùng there are many people want thay vì who want.,sentence_structure
+ERR-0073,IELTS Writing feedback - This solution can help to solve to the environmental crisis.,article_preposition
+ERR-0109,Many students do a lot of mistakes in the IELTS Writing test.,collocation_vocab
+ERR-0237,"As a result, students get tired. For instance, many people like traveling abroad.",coherence_cohesion
+ERR-0069,Speaking transcript: He is a honest person who works at an university.,article_preposition
+ERR-0156,The government should push the development of green energy.,collocation_vocab
+ERR-0392,Matched a Reading heading based on one identical keyword instead of the paragraph main idea.,listening_reading_trap
+ERR-0115,Using social media brings many bad effects to young people.,collocation_vocab
+ERR-0423,"Bài làm bị trừ điểm vì: Bị rối phương hướng bản đồ Listening Map Labelling (north-east, opposite, next to).",listening_reading_trap
+ERR-0131,Student wrote: The city has a heavy traffic jam every morning.,collocation_vocab
+ERR-0034,Mock test mistake: She didn't went to school because she was sick.,grammar_tense
+ERR-0173,"For example, cars, motorbikes, and buses in big cities.",sentence_structure
+ERR-0407,Forgot to transfer answers cleanly or shifted question numbers on the Reading answer sheet.,listening_reading_trap
+ERR-0429,Did not check grammar fit when filling blanks in Reading Summary Completion.,listening_reading_trap
+ERR-0155,Nhận xét giáo viên: Dùng từ sai văn phong học thuật (informal slang) trong bài Writing Task 2.,collocation_vocab
+ERR-0200,"In essay: Because of the economy is growing, living standards are higher.",sentence_structure
+ERR-0185,"Speaking transcript: Not only students benefit from online learning, teachers also save time.",sentence_structure
+ERR-0390,Confused FALSE with NOT GIVEN in Reading True/False/Not Given passage.,listening_reading_trap
+ERR-0427,Confused 'a few' with 'few' and 'most' with 'all' in Reading True False Not Given.,listening_reading_trap
+ERR-0143,He has a high chance to win the job interview.,collocation_vocab
+ERR-0404,In essay: Failed to notice negative qualifier 'rarely' or 'only' in Reading statement.,listening_reading_trap
+ERR-0050,"Since 2018, online learning became more popular worldwide.",grammar_tense
+ERR-0418,Nhận xét giáo viên: Bỏ sót âm cuối số nhiều s/es hoặc đơn vị đo lường khi điền từ bài nghe.,listening_reading_trap
+ERR-0291,Failed to compare key trends and highest/lowest figures in the bar chart overview.,task_response
+ERR-0227,In essay: People should protect wildlife. It is very important for them because they need it.,coherence_cohesion
+ERR-0223,"Speaking transcript: In the other hand, working from home has several drawbacks for teams.",coherence_cohesion
+ERR-0231,"IELTS Writing feedback - However, smartphones are useful. However, they distract students. However, parents worry.",coherence_cohesion
+ERR-0282,Arguments are too general and lack specific explanations or relevant examples.,task_response
+ERR-0432,IELTS Writing feedback - Missed synonym mapping between 'elderly residents' and 'senior citizens' in Matching Info.,listening_reading_trap
+ERR-0043,Bài làm bị trừ điểm vì: Nhầm lẫn thì hiện tại đơn và quá khứ đơn khi kể lại trải nghiệm Speaking Part 2.,grammar_tense
+ERR-0265,Bài làm bị trừ điểm vì: Mở bài và kết bài mâu thuẫn nhau về quan điểm đã trình bày.,coherence_cohesion
+ERR-0436,"Student wrote: Copied a word that already appeared after the blank, creating duplicate words.",listening_reading_trap
+ERR-0212,Nhận xét giáo viên: Lỗi cấu trúc song song (parallelism) và sai mệnh đề nhượng bộ Despite + clause.,sentence_structure
+ERR-0302,In essay: Superficial bullet-like ideas without explaining why or how the effect happens.,task_response
+ERR-0238,"IELTS Writing feedback - As a result, students get tired. For instance, many people like traveling abroad.",coherence_cohesion
+ERR-0328,The goverment should protect the enviroment for future generations.,spelling_wordform
+ERR-0088,"Compared by the previous year, sales increased significantly.",article_preposition
+ERR-0179,There are many people want to move to urban areas for better jobs.,sentence_structure
+ERR-0005,IELTS Writing feedback - She go to the library every day to prepare for her IELTS exam.,grammar_tense
+ERR-0218,"Student wrote: Studying at home is flexible, on the other hand, students feel isolated.",sentence_structure
+ERR-0322,Speaking transcript: Process diagram skipped two middle stages of recycling plastic bottles.,task_response
+ERR-0111,We had a big rain yesterday so the streets were flooded.,collocation_vocab
+ERR-0070,We arrived to the airport late because of heavy traffic.,article_preposition
+ERR-0098,"Học sinh mắc lỗi: Sai cụm giới từ đi kèm tính từ như interested in, good at, responsible for.",article_preposition
+ERR-0045,Bài làm bị trừ điểm vì: Động từ chia không khớp với chủ ngữ the number of và a number of.,grammar_tense
+ERR-0085,In essay: Parents should pay attention for their children's mental health.,article_preposition
+ERR-0205,Lỗi dùng kép liên từ Although với But hoặc Because với So trong cùng một câu.,sentence_structure
+ERR-0080,In essay: I am looking forward to hear from you in the future.,article_preposition
+ERR-0118,In essay: The teacher gave us many useful advices and informations.,collocation_vocab
+ERR-0362,He is a very intelligence student with strong creative.,spelling_wordform
+ERR-0048,Many children doesn't like eating vegetables at school.,grammar_tense
+ERR-0164,Speaking transcript: This machine helps workers reduce their hard working.,collocation_vocab
+ERR-0358,In essay: Public transport is more safety and reliability than motorbikes.,spelling_wordform
+ERR-0269,This paragraph mixes advantages and solutions together without clear organization.,coherence_cohesion
+ERR-0331,Students need to improve their confident when speaking English.,spelling_wordform
+ERR-0285,IELTS Writing feedback - Only answered the causes part of the two-part question and forgot to mention solutions.,task_response
+ERR-0027,Speaking transcript: Students who studies hard usually gets high band scores.,grammar_tense
+ERR-0011,Mock test mistake: People was working longer hours in the past decade.,grammar_tense
+ERR-0003,"Speaking transcript: In 2010, the percentage of people using cars rises to 60 percent.",grammar_tense
+ERR-0183,The reason why people commute is because housing is expensive.,sentence_structure
+ERR-0161,He said me that the IELTS exam was very hard.,collocation_vocab
+ERR-0075,"According to my opinion, public transport should be free.",article_preposition
+ERR-0312,Đưa ý kiến chủ quan vào bài miêu tả biểu đồ Writing Task 1.,task_response
+ERR-0059,Student wrote: Students depend in their teachers to improve writing skills.,article_preposition
+ERR-0201,"Even though the weather was bad, yet the event continued.",sentence_structure
+ERR-0006,Yesterday I have visited my hometown and see many changes.,grammar_tense
+ERR-0002,"In 2010, the percentage of people using cars rises to 60 percent.",grammar_tense
+ERR-0130,The city has a heavy traffic jam every morning.,collocation_vocab
+ERR-0042,Nhầm lẫn thì hiện tại đơn và quá khứ đơn khi kể lại trải nghiệm Speaking Part 2.,grammar_tense
+ERR-0379,Mock test mistake: Many young graduates lack of finance independence from parents.,spelling_wordform
+ERR-0040,"Học sinh mắc lỗi: Sai sự hòa hợp chủ ngữ và động từ số ít số nhiều, quên thêm s/es.",grammar_tense
+ERR-0204,Học sinh mắc lỗi: Lỗi câu run-on và comma splice nối hai mệnh đề độc lập bằng dấu phẩy.,sentence_structure
+ERR-0168,"Speaking transcript: Because air pollution is getting worse, so people wear masks.",sentence_structure
+ERR-0119,I very like watching movies in my free time.,collocation_vocab
+ERR-0253,Đoạn thân bài thiếu câu chủ đề (topic sentence) khiến người đọc khó nắm ý chính.,coherence_cohesion
+ERR-0307,"Chưa trả lời đủ hai câu hỏi của dạng Two-part question, bỏ sót phần giải pháp.",task_response
+ERR-0051,"Speaking transcript: Since 2018, online learning became more popular worldwide.",grammar_tense
+ERR-0058,Students depend in their teachers to improve writing skills.,article_preposition
+ERR-0167,"Because air pollution is getting worse, so people wear masks.",sentence_structure
+ERR-0354,The develop of artificial intelligence brings new oppurtunities.,spelling_wordform
+ERR-0126,We need to widen our knowledge by reading news everyday.,collocation_vocab
+ERR-0268,"Basically, as you can see, thing is that internet is everywhere nowadays.",coherence_cohesion
+ERR-0381,Student wrote: Tourism brings significant culture exchanges between nations.,spelling_wordform
+ERR-0400,Over-inferred outside knowledge in Reading instead of relying strictly on the passage text.,listening_reading_trap
+ERR-0175,Which causes serious damage to the local ecosystem.,sentence_structure
+ERR-0236,"IELTS Writing feedback - On the contrary, online learning saves money while traditional classes are face to face.",coherence_cohesion
+ERR-0233,The paragraph has no clear topic sentence and jumps between unrelated ideas.,coherence_cohesion
+ERR-0015,Technology have changed the way people communicate since 1990.,grammar_tense
+ERR-0422,"Bị rối phương hướng bản đồ Listening Map Labelling (north-east, opposite, next to).",listening_reading_trap
+ERR-0339,The economic of the country depends heavily on tourism.,spelling_wordform
+ERR-0191,"Despite he worked very hard, he did not pass the exam.",sentence_structure
+ERR-0122,Mock test mistake: He wants to take a good salary after graduating from university.,collocation_vocab
+ERR-0029,Speaking transcript: There is many reasons why unemployment rose in 2020.,grammar_tense
+ERR-0386,Missed the plural 's' at the end of 'tickets' in Listening Section 1 form completion.,listening_reading_trap
+ERR-0376,The society is facing a danger situation due to unemployment.,spelling_wordform
+ERR-0102,I usually go to the bed early on the weekend.,article_preposition
+ERR-0120,Student wrote: I very like watching movies in my free time.,collocation_vocab
+ERR-0100,Học sinh mắc lỗi: Thêm the sai quy tắc trước danh từ trừu tượng hoặc tên quốc gia.,article_preposition
+ERR-0140,Student wrote: Eating too much sugar can rise the risk of diabetes.,collocation_vocab
+ERR-0344,Air polution causes serious respiratory deseases in cities.,spelling_wordform
+ERR-0127,In essay: We need to widen our knowledge by reading news everyday.,collocation_vocab
+ERR-0142,Student wrote: Online courses help learners save their time and fee.,collocation_vocab
+ERR-0220,"Firstly, cars cause pollution. Moreover, education is important. Therefore, schools need computers.",coherence_cohesion
+ERR-0195,It is undeniable that technology which has transformed education.,sentence_structure
+ERR-0065,She is very interested on learning foreign languages.,article_preposition
+ERR-0247,Speaking transcript: Missing transition between the cause of traffic jams and the proposed government solutions.,coherence_cohesion
+ERR-0391,In essay: Confused FALSE with NOT GIVEN in Reading True/False/Not Given passage.,listening_reading_trap
+ERR-0192,"Speaking transcript: Despite he worked very hard, he did not pass the exam.",sentence_structure
+ERR-0314,Speaking transcript: Copied the prompt word-for-word in the introduction without paraphrasing.,task_response
+ERR-0261,"Học sinh mắc lỗi: Đại từ thay thế it, they, this không rõ ràng dẫn đến câu văn mơ hồ.",coherence_cohesion
+ERR-0082,It is difficult for students to focus on the study at the night.,article_preposition
+ERR-0320,In essay: Task 1 map description ignored major changes in the northern area.,task_response
+ERR-0274,The essay only wrote 180 words for Writing Task 2 which requires at least 250 words.,task_response
+ERR-0435,"Copied a word that already appeared after the blank, creating duplicate words.",listening_reading_trap
+ERR-0263,"Học sinh mắc lỗi: Chuyển đoạn đột ngột, không có câu dẫn dắt giữa hai luận điểm đối lập.",coherence_cohesion
+ERR-0280,Task 1 report listed every single number mechanically without an overview paragraph.,task_response
+ERR-0184,"Not only students benefit from online learning, teachers also save time.",sentence_structure
+ERR-0380,Tourism brings significant culture exchanges between nations.,spelling_wordform
+ERR-0009,In essay: The government don't invest enough money in public transport.,grammar_tense
+ERR-0243,The pronoun 'they' in the third sentence does not clearly refer to any noun.,coherence_cohesion
+ERR-0134,This policy will make a big influence to the economy.,collocation_vocab
+ERR-0399,In essay: Misspelled a dictated postcode and surname in Listening Part 1.,listening_reading_trap
+ERR-0240,"IELTS Writing feedback - Firstly, the graph shows water use. Secondly, agriculture is big. Thirdly, industry is small.",coherence_cohesion
+ERR-0360,The companys profit increased dramatic in the last quarter.,spelling_wordform
+ERR-0083,Mock test mistake: It is difficult for students to focus on the study at the night.,article_preposition
+ERR-0281,Student wrote: Task 1 report listed every single number mechanically without an overview paragraph.,task_response
+ERR-0104,Students lack of practical experience after graduation.,article_preposition
+ERR-0402,Chose distractor number 15 instead of 50 in Listening Section 1 phone and price question.,listening_reading_trap
+ERR-0105,This book consists from five chapters about economics.,article_preposition
+ERR-0106,Speaking transcript: This book consists from five chapters about economics.,article_preposition
+ERR-0276,"Prompt asked to discuss both views and give your opinion, but the essay gave no opinion.",task_response
+ERR-0022,My brother work as an engineer and live in Hanoi.,grammar_tense
+ERR-0311,"Lập luận hời hợt, chỉ liệt kê ý tưởng mà không phân tích nguyên nhân hệ quả.",task_response
+ERR-0275,Mock test mistake: The essay only wrote 180 words for Writing Task 2 which requires at least 250 words.,task_response
+ERR-0032,"By 2050, the population will grew to ten billion people.",grammar_tense
+ERR-0385,Student wrote: Wrote three words when the Listening instruction clearly stated NO MORE THAN TWO WORDS.,listening_reading_trap
+ERR-0318,Speaking transcript: Did not address the 'to what extent' part of the essay prompt.,task_response
+ERR-0255,"Lạm dụng từ nối máy móc Firstly, Secondly, Moreover ở đầu mọi câu.",coherence_cohesion
+ERR-0018,"Nowadays, many young people preferred watching videos to reading books.",grammar_tense
+ERR-0025,"Speaking transcript: If the government will ban cars, air pollution decreases.",grammar_tense
+ERR-0321,Process diagram skipped two middle stages of recycling plastic bottles.,task_response
+ERR-0433,Picked the first option mentioned in Listening MCQ without waiting for 'but' or 'however'.,listening_reading_trap
+ERR-0419,Không nhận ra từ đồng nghĩa paraphrase giữa câu hỏi và đoạn văn Reading.,listening_reading_trap
+ERR-0199,"Because of the economy is growing, living standards are higher.",sentence_structure
+ERR-0057,In essay: We need to discuss about the impact of climate change in society.,article_preposition
+ERR-0315,Overgeneralized claim saying all teenagers are addicted to phones without nuance.,task_response
+ERR-0198,"IELTS Writing feedback - My hometown has many parks, people go there to exercise, it is peaceful.",sentence_structure
+ERR-0020,The chart show that oil production decrease from 2005 to 2010.,grammar_tense
+ERR-0163,This machine helps workers reduce their hard working.,collocation_vocab
+ERR-0299,"Prompt asked whether benefits outweigh drawbacks, but essay only listed benefits.",task_response
+ERR-0300,"In essay: Prompt asked whether benefits outweigh drawbacks, but essay only listed benefits.",task_response
+ERR-0347,Speaking transcript: He gave a very successfully presentation at the conference.,spelling_wordform
+ERR-0074,"Despite of the high cost, many parents send children abroad.",article_preposition
+ERR-0374,Definetly we must take imediate action to reduce global warming.,spelling_wordform
+ERR-0004,She go to the library every day to prepare for her IELTS exam.,grammar_tense
+ERR-0053,IELTS Writing feedback - The graph illustrated the changes in energy use over the next ten years.,grammar_tense
+ERR-0017,He has finish his essay before the deadline yesterday.,grammar_tense
+ERR-0066,The internet plays important role in modern education.,article_preposition
+ERR-0397,Stopped listening too early in Section 3 multiple choice before the students rejected option A.,listening_reading_trap
+ERR-0222,"In the other hand, working from home has several drawbacks for teams.",coherence_cohesion
+ERR-0284,Only answered the causes part of the two-part question and forgot to mention solutions.,task_response
+ERR-0438,IELTS Writing feedback - Misread 'YES/NO/NOT GIVEN' instructions and wrote 'TRUE/FALSE' instead.,listening_reading_trap
+ERR-0389,"Speaking transcript: Fell for speaker self-correction: chose Tuesday instead of Thursday after 'actually, sorry'.",listening_reading_trap
+ERR-0424,Mất dấu vị trí trong Listening Section 4 lecture vì bỏ qua signpost words.,listening_reading_trap
+ERR-0304,Bài làm bị trừ điểm vì: Lạc đề: đề bài hỏi về thuế đường nhưng bài viết lại bàn chung chung về tập thể dục.,task_response
+ERR-0063,"In Monday morning, I have an important IELTS mock test.",article_preposition
+ERR-0128,Smoking can do harm for our lungs and heart.,collocation_vocab
+ERR-0147,Lỗi dùng từ không tự nhiên do dịch từng từ tiếng Việt sang tiếng Anh.,collocation_vocab
+ERR-0329,Mock test mistake: The goverment should protect the enviroment for future generations.,spelling_wordform
+ERR-0332,In essay: Students need to improve their confident when speaking English.,spelling_wordform
+ERR-0028,There is many reasons why unemployment rose in 2020.,grammar_tense
+ERR-0250,"At the same time, crime rates increased. By the way, tourists love local food.",coherence_cohesion
+ERR-0267,"Mock test mistake: Last but not least, every coin has two sides so we should balance it.",coherence_cohesion
+ERR-0293,Writing Task 1 was under 150 words and missed two categories from the table.,task_response
+ERR-0266,"Last but not least, every coin has two sides so we should balance it.",coherence_cohesion
+ERR-0228,"To begin with, I will talk about sports. Secondly, healthy food. Finally, sleep.",coherence_cohesion
+ERR-0248,In my essay I will discuss both views. First view is good. Second view is also good.,coherence_cohesion
+ERR-0372,Viết sai chính tả trong bài Listening điền từ khiến mất điểm đáng tiếc.,spelling_wordform
+ERR-0229,"Mock test mistake: To begin with, I will talk about sports. Secondly, healthy food. Finally, sleep.",coherence_cohesion
+ERR-0340,Children should be educate about nutrition from an early age.,spelling_wordform
+ERR-0144,IELTS Writing feedback - He has a high chance to win the job interview.,collocation_vocab
+ERR-0396,Wrote the currency symbol wrong or forgot 'million' unit in Listening table completion.,listening_reading_trap
+ERR-0289,Used memorized cliché sentences that do not directly answer the essay question.,task_response
+ERR-0295,The essay agrees and disagrees vaguely without taking a clear position.,task_response
+ERR-0023,Speaking transcript: My brother work as an engineer and live in Hanoi.,grammar_tense
+ERR-0286,Thesis statement is unclear and contradicts the conclusion paragraph.,task_response
+ERR-0211,Lỗi cấu trúc song song (parallelism) và sai mệnh đề nhượng bộ Despite + clause.,sentence_structure
+ERR-0239,"Firstly, the graph shows water use. Secondly, agriculture is big. Thirdly, industry is small.",coherence_cohesion
+ERR-0090,She married with a doctor and moved to the Australia.,article_preposition
+ERR-0375,Student wrote: Definetly we must take imediate action to reduce global warming.,spelling_wordform
+ERR-0149,Sai collocation phổ biến: dùng do mistakes thay vì make mistakes.,collocation_vocab
+ERR-0197,"My hometown has many parks, people go there to exercise, it is peaceful.",sentence_structure
+ERR-0171,"Studying abroad is beneficial, however it is very costly for families.",sentence_structure
+ERR-0434,In essay: Picked the first option mentioned in Listening MCQ without waiting for 'but' or 'however'.,listening_reading_trap
+ERR-0135,Students should learn by heart new vocabularies and knowledges.,collocation_vocab
+ERR-0013,"Between 2000 and 2015, carbon emissions was increasing rapidly.",grammar_tense
+ERR-0359,It is neccessary to seperate household waste before recycling.,spelling_wordform
+ERR-0068,He is a honest person who works at an university.,article_preposition
+ERR-0341,In essay: Children should be educate about nutrition from an early age.,spelling_wordform
+ERR-0086,Many people suffer of stress due to heavy workload.,article_preposition
+ERR-0230,"However, smartphones are useful. However, they distract students. However, parents worry.",coherence_cohesion
+ERR-0202,"Speaking transcript: Even though the weather was bad, yet the event continued.",sentence_structure
+ERR-0178,"Student wrote: When children playing games too much, losing focus in class.",sentence_structure
+ERR-0387,Speaking transcript: Missed the plural 's' at the end of 'tickets' in Listening Section 1 form completion.,listening_reading_trap
+ERR-0287,Included personal opinions and assumptions in Academic Writing Task 1 chart description.,task_response
+ERR-0008,The government don't invest enough money in public transport.,grammar_tense
+ERR-0409,"Misunderstood map directions 'opposite', 'adjacent to', and 'just past the bridge' in Listening.",listening_reading_trap
+ERR-0114,In essay: Please open the light because the room is very dark.,collocation_vocab
+ERR-0373,Học sinh mắc lỗi: Viết sai chính tả trong bài Listening điền từ khiến mất điểm đáng tiếc.,spelling_wordform
+ERR-0026,Students who studies hard usually gets high band scores.,grammar_tense
+ERR-0093,Bài làm bị trừ điểm vì: Thiếu mạo từ a an the trước danh từ đếm được số ít.,article_preposition
+ERR-0305,Thiếu đoạn Overview tổng quan trong IELTS Writing Task 1.,task_response
+ERR-0370,"Sai so sánh hơn kép more easier, more better hoặc sai dạng từ loại sau động từ to be.",spelling_wordform
+ERR-0298,In essay: Example about my uncle's friend is too informal and does not support the main claim.,task_response
+ERR-0345,Student wrote: Air polution causes serious respiratory deseases in cities.,spelling_wordform
+ERR-0234,Speaking transcript: The paragraph has no clear topic sentence and jumps between unrelated ideas.,coherence_cohesion
+ERR-0110,Mock test mistake: Many students do a lot of mistakes in the IELTS Writing test.,collocation_vocab
+ERR-0297,Example about my uncle's friend is too informal and does not support the main claim.,task_response
+ERR-0356,Students often feel stressful and anxiety before final exams.,spelling_wordform
+ERR-0292,Speaking transcript: Failed to compare key trends and highest/lowest figures in the bar chart overview.,task_response
+ERR-0182,IELTS Writing feedback - I think that people should use public transport it is cheaper.,sentence_structure
+ERR-0388,"Fell for speaker self-correction: chose Tuesday instead of Thursday after 'actually, sorry'.",listening_reading_trap
+ERR-0361,In essay: The companys profit increased dramatic in the last quarter.,spelling_wordform
+ERR-0076,"Speaking transcript: According to my opinion, public transport should be free.",article_preposition
+ERR-0251,"IELTS Writing feedback - At the same time, crime rates increased. By the way, tourists love local food.",coherence_cohesion
+ERR-0123,People should make sports regularly to keep healthy.,collocation_vocab
+ERR-0166,"In essay: Although the tuition fee is expensive, but many students still study abroad.",sentence_structure
+ERR-0384,Wrote three words when the Listening instruction clearly stated NO MORE THAN TWO WORDS.,listening_reading_trap
+ERR-0327,IELTS Writing feedback - No clear stance throughout the essay despite choosing an agree/disagree prompt.,task_response
+ERR-0210,Học sinh mắc lỗi: Sai mệnh đề quan hệ: dùng there are many people want thay vì who want.,sentence_structure
+ERR-0138,In essay: The company did a great progress in renewable energy.,collocation_vocab
+ERR-0366,"Nhầm lẫn từ loại danh từ, tính từ, trạng từ (benefit vs beneficial, different vs difference).",spelling_wordform
+ERR-0150,Học sinh mắc lỗi: Sai collocation phổ biến: dùng do mistakes thay vì make mistakes.,collocation_vocab
+ERR-0394,Missed the paraphrase: question used 'annual cost' while passage said 'yearly fee'.,listening_reading_trap
+ERR-0071,Student wrote: We arrived to the airport late because of heavy traffic.,article_preposition
+ERR-0256,"Học sinh mắc lỗi: Lạm dụng từ nối máy móc Firstly, Secondly, Moreover ở đầu mọi câu.",coherence_cohesion
+ERR-0417,Bỏ sót âm cuối số nhiều s/es hoặc đơn vị đo lường khi điền từ bài nghe.,listening_reading_trap
+ERR-0207,"Câu cụt thiếu động từ chính (sentence fragment), chỉ có cụm danh từ.",sentence_structure
+ERR-0055,In essay: Each of the participants have to submit a report.,grammar_tense
+ERR-0403,Failed to notice negative qualifier 'rarely' or 'only' in Reading statement.,listening_reading_trap
+ERR-0319,Task 1 map description ignored major changes in the northern area.,task_response
+ERR-0348,Accomodation in big cities is becoming unaffordable for young workers.,spelling_wordform
+ERR-0170,"Mock test mistake: Many young people use smartphones, they spend hours on social media.",sentence_structure
+ERR-0420,Chọn đáp án theo từ khóa giống hệt (keyword matching trap) mà không đọc kỹ ngữ cảnh.,listening_reading_trap
+ERR-0323,Unsupported sweeping statements about government failure with zero reasoning.,task_response
+ERR-0350,Technology has made communication more easier and conveniant.,spelling_wordform
+ERR-0216,The movie which I watched it yesterday was really inspiring.,sentence_structure
+ERR-0044,Động từ chia không khớp với chủ ngữ the number of và a number of.,grammar_tense
+ERR-0024,"If the government will ban cars, air pollution decreases.",grammar_tense
+ERR-0159,Reading books can open our mind and give us many experiences.,collocation_vocab
+ERR-0137,The company did a great progress in renewable energy.,collocation_vocab
+ERR-0288,IELTS Writing feedback - Included personal opinions and assumptions in Academic Writing Task 1 chart description.,task_response
+ERR-0096,Học sinh mắc lỗi: Dùng sai giới từ in on at cho thời gian và địa điểm.,article_preposition
+ERR-0335,Online education is becoming increasingly popularity around the world.,spelling_wordform
+ERR-0349,IELTS Writing feedback - Accomodation in big cities is becoming unaffordable for young workers.,spelling_wordform
+ERR-0176,Student wrote: Which causes serious damage to the local ecosystem.,sentence_structure
+ERR-0342,There is a big different between urban and rural lifestyles.,spelling_wordform
+ERR-0094,Dùng thừa giới từ about sau động từ discuss và mention.,article_preposition
+ERR-0187,"Student wrote: While the percentage of coal fell, whereas solar energy increased.",sentence_structure
+ERR-0264,Mở bài và kết bài mâu thuẫn nhau về quan điểm đã trình bày.,coherence_cohesion
+ERR-0258,Bài làm bị trừ điểm vì: Sai cụm từ nối cố định: viết In the other hand thay vì On the other hand.,coherence_cohesion
+ERR-0033,She didn't went to school because she was sick.,grammar_tense
+ERR-0317,Did not address the 'to what extent' part of the essay prompt.,task_response
+ERR-0252,"Moreover, pollution harms health. In contrast, hospitals are expensive.",coherence_cohesion
+ERR-0213,"Online shopping is convenient, therefore many shops are closing down.",sentence_structure
+ERR-0421,Học sinh mắc lỗi: Chọn đáp án theo từ khóa giống hệt (keyword matching trap) mà không đọc kỹ ngữ cảnh.,listening_reading_trap
+ERR-0089,"Speaking transcript: Compared by the previous year, sales increased significantly.",article_preposition
+ERR-0079,I am looking forward to hear from you in the future.,article_preposition
+ERR-0241,Using too many linking words mechanically at the start of every single sentence.,coherence_cohesion
+ERR-0333,Many people recieve false information from social media platforms.,spelling_wordform
+ERR-0249,Student wrote: In my essay I will discuss both views. First view is good. Second view is also good.,coherence_cohesion
+ERR-0377,Speaking transcript: The society is facing a danger situation due to unemployment.,spelling_wordform
+ERR-0338,In essay: She worked very hardly to achieve a high IELTS score.,spelling_wordform
+ERR-0215,"To improve English speaking skills, practicing every day.",sentence_structure
+ERR-0038,Nhận xét giáo viên: Lỗi chia sai thì quá khứ đơn trong IELTS Writing Task 1 biểu đồ năm 2015.,grammar_tense
+ERR-0064,"Mock test mistake: In Monday morning, I have an important IELTS mock test.",article_preposition
+ERR-0271,Repetitive use of 'also' and 'and' to connect unrelated arguments.,coherence_cohesion
+ERR-0014,"Speaking transcript: Between 2000 and 2015, carbon emissions was increasing rapidly.",grammar_tense
+ERR-0277,"Student wrote: Prompt asked to discuss both views and give your opinion, but the essay gave no opinion.",task_response
+ERR-0416,Nhận xét giáo viên: Viết quá giới hạn từ NO MORE THAN TWO WORDS AND/OR A NUMBER trong Listening và Reading.,listening_reading_trap
+ERR-0408,Student wrote: Forgot to transfer answers cleanly or shifted question numbers on the Reading answer sheet.,listening_reading_trap
+ERR-0162,Speaking transcript: He said me that the IELTS exam was very hard.,collocation_vocab
+ERR-0393,Speaking transcript: Matched a Reading heading based on one identical keyword instead of the paragraph main idea.,listening_reading_trap
+ERR-0217,"Studying at home is flexible, on the other hand, students feel isolated.",sentence_structure
+ERR-0208,"Nhận xét giáo viên: Câu cụt thiếu động từ chính (sentence fragment), chỉ có cụm danh từ.",sentence_structure
+ERR-0095,Dùng sai giới từ in on at cho thời gian và địa điểm.,article_preposition
+ERR-0174,"Mock test mistake: For example, cars, motorbikes, and buses in big cities.",sentence_structure
+ERR-0113,Please open the light because the room is very dark.,collocation_vocab
+ERR-0019,"IELTS Writing feedback - Nowadays, many young people preferred watching videos to reading books.",grammar_tense
+ERR-0154,Dùng từ sai văn phong học thuật (informal slang) trong bài Writing Task 2.,collocation_vocab
+ERR-0012,Everyone in my class are excited about the upcoming test.,grammar_tense
+ERR-0158,We must protect the nature and stop destroying wild animals.,collocation_vocab
+ERR-0382,Her explaination was clear and easy to understand.,spelling_wordform
+ERR-0206,Bài làm bị trừ điểm vì: Lỗi dùng kép liên từ Although với But hoặc Because với So trong cùng một câu.,sentence_structure
+ERR-0336,In essay: Online education is becoming increasingly popularity around the world.,spelling_wordform
+ERR-0224,"Besides that, technology is good. Furthermore, it is fast. In addition, it is cheap.",coherence_cohesion

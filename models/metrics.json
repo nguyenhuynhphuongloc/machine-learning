@@ -1,0 +1,172 @@
+{
+  "trained_at": "2026-11-20T10:49:38.789507+00:00",
+  "dataset_summary": {
+    "student_samples": 1800,
+    "error_samples": 438,
+    "error_categories": 8
+  },
+  "learning_quality": {
+    "algorithm": "GradientBoostingRegressor + KMeans(4)",
+    "r2": 0.9785,
+    "mae": 2.051,
+    "rmse": 2.545,
+    "silhouette_score": 0.2456
+  },
+  "ielts_prediction": {
+    "selected_algorithm": "GradientBoostingRegressor (4-Skill Ensemble)",
+    "overall_r2": 0.9625,
+    "overall_mae": 0.119,
+    "overall_rmse": 0.244,
+    "within_half_band_accuracy": 100.0,
+    "per_skill": {
+      "listening": {
+        "r2": 0.9572,
+        "mae": 0.209,
+        "rmse": 0.263
+      },
+      "reading": {
+        "r2": 0.9582,
+        "mae": 0.209,
+        "rmse": 0.258
+      },
+      "writing": {
+        "r2": 0.9637,
+        "mae": 0.202,
+        "rmse": 0.246
+      },
+      "speaking": {
+        "r2": 0.9628,
+        "mae": 0.2,
+        "rmse": 0.25
+      }
+    },
+    "algorithm_benchmark": [
+      {
+        "name": "Gradient Boosting (4-Skill)",
+        "r2": 0.9625,
+        "mae": 0.119
+      },
+      {
+        "name": "Random Forest Regressor",
+        "r2": 0.9682,
+        "mae": 0.178
+      },
+      {
+        "name": "Ridge Regression",
+        "r2": 0.9744,
+        "mae": 0.165
+      }
+    ]
+  },
+  "student_classification": {
+    "selected_algorithm": "RandomForestClassifier",
+    "accuracy": 91.39,
+    "f1_macro": 90.5,
+    "classes": [
+      "Yếu",
+      "Trung bình",
+      "Khá",
+      "Mạnh"
+    ],
+    "algorithm_benchmark": [
+      {
+        "name": "Random Forest Classifier",
+        "accuracy": 91.39,
+        "f1_macro": 90.5
+      },
+      {
+        "name": "Logistic Regression",
+        "accuracy": 93.89,
+        "f1_macro": 93.5
+      }
+    ]
+  },
+  "error_classification": {
+    "algorithm": "FeatureUnion(Word+Char TF-IDF) + LogisticRegression + Linguistic Rules",
+    "cv_accuracy": 83.79,
+    "cv_f1_macro": 83.87,
+    "num_categories": 8,
+    "training_samples": 438
+  },
+  "feature_importance": {
+    "learning_quality": [
+      {
+        "feature": "wow_sessions",
+        "label_vi": "Số buổi đặt WOW",
+        "importance": 70.65
+      },
+      {
+        "feature": "homework_completion_rate",
+        "label_vi": "% Làm BTVN",
+        "importance": 15.44
+      },
+      {
+        "feature": "attendance_rate",
+        "label_vi": "% Chuyên cần",
+        "importance": 7.14
+      },
+      {
+        "feature": "hw_listening_pct",
+        "label_vi": "% Điểm BTVN Listening",
+        "importance": 2.57
+      },
+      {
+        "feature": "hw_speaking_pct",
+        "label_vi": "% Điểm BTVN Speaking",
+        "importance": 2.11
+      },
+      {
+        "feature": "hw_reading_pct",
+        "label_vi": "% Điểm BTVN Reading",
+        "importance": 1.16
+      },
+      {
+        "feature": "hw_writing_pct",
+        "label_vi": "% Điểm BTVN Writing",
+        "importance": 0.93
+      }
+    ],
+    "ielts_prediction": [
+      {
+        "feature": "entry_score",
+        "label_vi": "Điểm đầu vào (Band)",
+        "importance": 21.28
+      },
+      {
+        "feature": "hw_reading_pct",
+        "label_vi": "% Điểm BTVN Reading",
+        "importance": 17.87
+      },
+      {
+        "feature": "hw_listening_pct",
+        "label_vi": "% Điểm BTVN Listening",
+        "importance": 17.83
+      },
+      {
+        "feature": "hw_writing_pct",
+        "label_vi": "% Điểm BTVN Writing",
+        "importance": 16.33
+      },
+      {
+        "feature": "hw_speaking_pct",
+        "label_vi": "% Điểm BTVN Speaking",
+        "importance": 15.94
+      },
+      {
+        "feature": "wow_sessions",
+        "label_vi": "Số buổi đặt WOW",
+        "importance": 7.14
+      },
+      {
+        "feature": "homework_completion_rate",
+        "label_vi": "% Làm BTVN",
+        "importance": 2.17
+      },
+      {
+        "feature": "attendance_rate",
+        "label_vi": "% Chuyên cần",
+        "importance": 1.44
+      }
+    ]
+  }
+}

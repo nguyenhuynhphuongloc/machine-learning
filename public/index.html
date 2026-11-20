@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IELTS AI Prediction — Dự đoán Band thực tế &amp; Đánh giá Học tập</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <!-- Header -->
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-logo">AI</div>
+        <div>
+          <h1>IELTS AI Learning Analytics</h1>
+          <p>Dự đoán Band IELTS thực tế · Đánh giá chất lượng học tập · Phân loại học sinh · Phân tích lỗi sai NLP</p>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <span id="apiStatus" class="status-pill">Đang kết nối API...</span>
+        <a href="/docs" target="_blank" rel="noopener" class="btn btn-ghost">API Docs (Swagger)</a>
+      </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="tabs" role="tablist">
+      <button class="tab-btn active" data-tab="student" role="tab">
+        1. Dự đoán Band Thực tế &amp; Đánh giá
+      </button>
+      <button class="tab-btn" data-tab="errors" role="tab">
+        2. Phân loại Lỗi sai (NLP)
+      </button>
+      <button class="tab-btn" data-tab="batch" role="tab">
+        3. Phân loại Lớp học (Hàng loạt)
+      </button>
+      <button class="tab-btn" data-tab="metrics" role="tab">
+        4. Hiệu năng Mô hình ML
+      </button>
+    </nav>
+
+    <!-- TAB 1: PREDICT ACTUAL IELTS BAND + QUALITY + TIER -->
+    <section id="tab-student" class="tab-panel active">
+      <div class="preset-bar">
+        <span class="preset-label">Chọn hồ sơ mẫu nhanh:</span>
+        <div id="presetButtons" class="preset-group"></div>
+      </div>
+
+      <div class="grid-two-asymmetric">
+        <!-- Input Form with Exact Requested Fields -->
+        <div class="card">
+          <div class="card-header">
+            <h2>Thông số học tập đầu vào</h2>
+            <span class="chip">8 trường dữ liệu cốt lõi</span>
+          </div>
+
+          <form id="studentForm" class="form-grid">
+            <div class="form-section-title">1. Đầu vào &amp; Quá trình học</div>
+
+            <label class="field">
+              <span>Điểm đầu vào (Band)</span>
+              <div class="input-with-unit">
+                <input type="number" step="0.5" min="1" max="9" name="entry_score" value="5.0" required />
+                <span class="unit">Band</span>
+              </div>
+            </label>
+
+            <label class="field">
+              <span>Số buổi đặt WOW</span>
+              <div class="input-with-unit">
+                <input type="number" step="1" min="0" max="60" name="wow_sessions" value="12" required />
+                <span class="unit">buổi</span>
+              </div>
+            </label>
+
+            <label class="field">
+              <span>Phần trăm chuyên cần</span>
+              <div class="input-with-unit">
+                <input type="number" step="1" min="0" max="100" name="attendance_rate" value="88" required />
+                <span class="unit">%</span>
+              </div>
+            </label>
+
+            <label class="field">
+              <span>Phần trăm làm BTVN</span>
+              <div class="input-with-unit">
+                <input type="number" step="1" min="0" max="100" name="homework_completion_rate" value="85" required />
+                <span class="unit">%</span>
+              </div>
+            </label>
+
+            <div class="form-section-title">2. Điểm phần trăm 4 kỹ năng BTVN (%)</div>
+
+            <label class="field">
+              <span>Listening (BTVN)</span>
+              <div class="input-with-unit">
+                <input type="number" step="1" min="0" max="100" name="hw_listening_pct" value="78" required />
+                <span class="unit">%</span>
+              </div>
+            </label>
+
+            <label class="field">
+              <span>Reading (BTVN)</span>
+              <div class="input-with-unit">
+                <input type="number" step="1" min="0" max="100" name="hw_reading_pct" value="76" required />
+                <span class="unit">%</span>
+              </div>
+            </label>
+
+            <label class="field">
+              <span>Writing (BTVN)</span>
+              <div class="input-with-unit">
+                <input type="number" step="1" min="0" max="100" name="hw_writing_pct" value="66" required />
+                <span class="unit">%</span>
+              </div>
+            </label>
+
+            <label class="field">
+              <span>Speaking (BTVN)</span>
+              <div class="input-with-unit">
+                <input type="number" step="1" min="0" max="100" name="hw_speaking_pct" value="68" required />
+                <span class="unit">%</span>
+              </div>
+            </label>
+
+            <div class="form-section-title">3. Mục tiêu đầu ra (tính xác suất đạt)</div>
+
+            <label class="field field-full">
+              <span>Band IELTS mục tiêu</span>
+              <div class="input-with-unit">
+                <input type="number" step="0.5" min="4" max="9" name="target_band" value="6.5" required />
+                <span class="unit">Band</span>
+              </div>
+            </label>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary btn-lg" id="analyzeStudentBtn">
+                Dự đoán Band IELTS thực tế
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Results Dashboard -->
+        <div class="results-stack">
+          <!-- Hero Predicted Band Banner -->
+          <div class="hero-prediction">
+            <div class="hero-main">
+              <div class="hero-eyebrow">BAND IELTS THỰC TẾ DỰ ĐOÁN (OVERALL)</div>
+              <div class="hero-score-row">
+                <span class="hero-band" id="kpiPredictedOverall">--</span>
+                <div class="hero-meta">
+                  <div id="kpiGainInterval" class="hero-delta">So với đầu vào: --</div>
+                  <div id="kpiTargetProbLine" class="hero-target">Xác suất đạt mục tiêu: --</div>
+                </div>
+              </div>
+            </div>
+            <div class="hero-skills" id="heroSkillsGrid">
+              <div class="mini-band"><span>Listening</span><strong id="bandL">--</strong></div>
+              <div class="mini-band"><span>Reading</span><strong id="bandR">--</strong></div>
+              <div class="mini-band"><span>Writing</span><strong id="bandW">--</strong></div>
+              <div class="mini-band"><span>Speaking</span><strong id="bandS">--</strong></div>
+            </div>
+          </div>
+
+          <!-- KPI Row -->
+          <div class="kpi-grid kpi-grid-3">
+            <div class="kpi-card">
+              <div class="kpi-label">Chất lượng học tập</div>
+              <div class="kpi-value" id="kpiQualityScore">--</div>
+              <div class="kpi-sub" id="kpiQualityGrade">Xếp loại: --</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-label">Phân loại học sinh</div>
+              <div class="kpi-value" id="kpiStudentTier">--</div>
+              <div class="kpi-sub" id="kpiTierConfidence">Độ tin cậy: --</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-label">Xác suất đạt mục tiêu</div>
+              <div class="kpi-value" id="kpiTargetProb">--</div>
+              <div class="kpi-sub" id="kpiTargetLabel">Mục tiêu: --</div>
+            </div>
+          </div>
+
+          <!-- Charts Row -->
+          <div class="grid-two">
+            <div class="card">
+              <div class="card-header">
+                <h3>Dự đoán Band thực tế 4 kỹ năng</h3>
+                <span class="chip">Gradient Boosting</span>
+              </div>
+              <div class="chart-box">
+                <canvas id="skillsChart"></canvas>
+              </div>
+              <div id="whatIfBanner" class="callout callout-info hidden"></div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h3>Hồ sơ Chất lượng &amp; Phân nhóm</h3>
+                <span class="chip">K-Means + Random Forest</span>
+              </div>
+              <div class="chart-box">
+                <canvas id="qualityRadarChart"></canvas>
+              </div>
+              <div id="personaBox" class="persona-box hidden"></div>
+            </div>
+          </div>
+
+          <!-- Skill Diagnosis & Recommendations -->
+          <div class="grid-two">
+            <div class="card">
+              <div class="card-header">
+                <h3>Chẩn đoán Điểm mạnh / Điểm yếu (từ % BTVN)</h3>
+              </div>
+              <div id="tierProbsContainer" class="prob-bars"></div>
+              <div id="skillDiagnosisList" class="diagnosis-list"></div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h3>Đề xuất lộ trình cá nhân hóa</h3>
+              </div>
+              <div id="recommendationsContainer" class="insights-list"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: COMMON ERROR CLASSIFICATION (NLP) -->
+    <section id="tab-errors" class="tab-panel">
+      <div class="grid-two-asymmetric">
+        <div class="card">
+          <div class="card-header">
+            <h2>Nhập bài viết / Nhật ký lỗi sai IELTS</h2>
+            <button type="button" class="btn btn-ghost btn-sm" id="loadSampleErrorBtn">
+              Nạp bài mẫu 8 loại lỗi
+            </button>
+          </div>
+          <p class="helper-text">
+            Nhập đoạn văn tiếng Anh học sinh viết, các câu bị sai ngữ pháp/từ vựng, hoặc ghi chú lỗi từ giáo viên
+            (mỗi câu hoặc mỗi dòng 1 ý). Mô hình <strong>TF-IDF + Logistic Regression + Luật ngôn ngữ</strong>
+            sẽ tự động phân loại 8 nhóm lỗi IELTS phổ biến nhất.
+          </p>
+          <textarea
+            id="errorInputText"
+            rows="12"
+            placeholder="Ví dụ:&#10;Although studying abroad is expensive, but many students still want to go.&#10;The number of students have increased sharply last year.&#10;We need to discuss about the impact of social media..."
+          ></textarea>
+          <div class="form-actions">
+            <button type="button" class="btn btn-primary btn-lg" id="analyzeErrorBtn">
+              Phân loại lỗi sai bằng NLP
+            </button>
+          </div>
+        </div>
+
+        <div class="results-stack">
+          <div class="grid-two">
+            <div class="card">
+              <div class="card-header">
+                <h3>Phân bổ nhóm lỗi sai</h3>
+                <span class="chip" id="errorCountChip">0 câu phân tích</span>
+              </div>
+              <div class="chart-box">
+                <canvas id="errorPieChart"></canvas>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h3>Kế hoạch khắc phục ưu tiên</h3>
+              </div>
+              <div id="errorRemediationList" class="insights-list">
+                <p class="empty-state">Nhấn "Phân loại lỗi sai bằng NLP" để xem kế hoạch khắc phục.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h3>Chi tiết phân loại từng câu / ghi chú</h3>
+            </div>
+            <div id="errorSegmentsList" class="segments-list">
+              <p class="empty-state">Chưa có dữ liệu phân tích.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: BATCH CLASS ANALYSIS -->
+    <section id="tab-batch" class="tab-panel">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h2>Phân loại Học sinh Yếu / Mạnh &amp; Dự đoán cả Lớp</h2>
+            <p class="helper-text">Phân tích hàng loạt từ điểm đầu vào, buổi WOW, % chuyên cần, % BTVN và điểm % 4 kỹ năng BTVN của từng học sinh.</p>
+          </div>
+          <div class="header-buttons">
+            <label class="field inline-field">
+              <span>Band mục tiêu lớp:</span>
+              <input type="number" id="batchTargetBand" step="0.5" min="4" max="9" value="6.5" />
+            </label>
+            <button type="button" class="btn btn-ghost" id="loadSampleClassBtn">Nạp lớp mẫu (6 HS)</button>
+            <button type="button" class="btn btn-primary" id="runBatchBtn">Phân tích cả lớp</button>
+          </div>
+        </div>
+
+        <details class="json-editor-box">
+          <summary>Chỉnh sửa dữ liệu lớp học (JSON) — nhấn để mở/đóng</summary>
+          <textarea id="batchJsonInput" rows="8"></textarea>
+        </details>
+      </div>
+
+      <div id="batchResults" class="results-stack hidden">
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <div class="kpi-label">Tổng số học sinh</div>
+            <div class="kpi-value" id="batchTotal">--</div>
+            <div class="kpi-sub">Đã phân loại tự động</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Band thực tế TB lớp</div>
+            <div class="kpi-value" id="batchAvgIelts">--</div>
+            <div class="kpi-sub" id="batchAvgQuality">Chất lượng học TB: --</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Học sinh Yếu (Cần kèm)</div>
+            <div class="kpi-value text-danger" id="batchAtRisk">--</div>
+            <div class="kpi-sub" id="batchStrongCount">Nhóm Mạnh: --</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Kỹ năng yếu nhất lớp</div>
+            <div class="kpi-value kpi-sm" id="batchWeakestSkill">--</div>
+            <div class="kpi-sub">Cần tăng buổi WOW luyện thêm</div>
+          </div>
+        </div>
+
+        <div class="grid-two">
+          <div class="card">
+            <div class="card-header"><h3>Phân bổ nhóm Học sinh Yếu / Mạnh</h3></div>
+            <div class="chart-box"><canvas id="batchTierChart"></canvas></div>
+          </div>
+          <div class="card">
+            <div class="card-header"><h3>Tỷ lệ Kỹ năng yếu nhất của từng học sinh</h3></div>
+            <div class="chart-box"><canvas id="batchSkillChart"></canvas></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Bảng dự đoán &amp; Cảnh báo sớm (Ưu tiên học sinh cần hỗ trợ lên đầu)</h3>
+          </div>
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Học sinh</th>
+                  <th>Phân loại</th>
+                  <th>Đầu vào</th>
+                  <th>Buổi WOW</th>
+                  <th>Chuyên cần / BTVN</th>
+                  <th>Chất lượng học</th>
+                  <th>Dự đoán Band thực tế</th>
+                  <th>Kỹ năng yếu nhất</th>
+                  <th>XS đạt mục tiêu</th>
+                </tr>
+              </thead>
+              <tbody id="batchTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 4: MODEL METRICS & BENCHMARKS -->
+    <section id="tab-metrics" class="tab-panel">
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-label">Dự đoán Band thực tế (R²)</div>
+          <div class="kpi-value" id="mIeltsR2">--</div>
+          <div class="kpi-sub" id="mIeltsMae">MAE: -- · Sai số ≤ 0.5 band: --</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Chất lượng học tập (R²)</div>
+          <div class="kpi-value" id="mQualityR2">--</div>
+          <div class="kpi-sub" id="mQualitySil">K-Means Silhouette: --</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Phân loại Học sinh (Accuracy)</div>
+          <div class="kpi-value" id="mTierAcc">--</div>
+          <div class="kpi-sub" id="mTierF1">Macro-F1: --</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Phân loại Lỗi sai NLP (5-Fold CV)</div>
+          <div class="kpi-value" id="mErrorAcc">--</div>
+          <div class="kpi-sub" id="mErrorF1">Macro-F1: --</div>
+        </div>
+      </div>
+
+      <div class="grid-two">
+        <div class="card">
+          <div class="card-header">
+            <h3>So sánh thuật toán Dự đoán Band IELTS (R² &amp; MAE)</h3>
+          </div>
+          <div class="chart-box"><canvas id="benchmarkChart"></canvas></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Tầm quan trọng của 8 trường dữ liệu khi dự đoán Band</h3>
+          </div>
+          <div class="chart-box"><canvas id="featureImportanceChart"></canvas></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3>Chi tiết các thuật toán Machine Learning sử dụng trong hệ thống</h3>
+        </div>
+        <div class="algo-grid" id="algoCards"></div>
+      </div>
+    </section>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
